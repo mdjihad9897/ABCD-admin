@@ -1,0 +1,18 @@
+// Firebase App Initialization
+const firebaseConfig = {
+  apiKey: "AIzaSyDPT3fRRT8m_zHlpEfo3wuuWe2NRsHHUqs",
+  authDomain: "jihad-4b833.firebaseapp.com",
+  databaseURL: "https://jihad-4b833-default-rtdb.firebaseio.com",
+  projectId: "jihad-4b833",
+  storageBucket: "jihad-4b833.firebasestorage.app",
+  messagingSenderId: "668587419972",
+  appId: "1:668587419972:web:7ec0a9c5ff31929ff7cf11",
+  measurementId: "G-YGZBR5S47K"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Initialize Services
+const database = firebase.database();
+const auth = firebase.auth();
